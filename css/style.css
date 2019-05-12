@@ -11,7 +11,7 @@ body{
   height: calc(100% - 40px);
 }
 
-#go {
+.btn {
   width: 100px;
   height: 30px;
   border: 1px solid black;
@@ -19,8 +19,10 @@ body{
   text-align: center;
   line-height: 30px;
   margin: 5px;
+  display: inline-block;
 }
-#go:hover {
+
+.btn:hover {
   background: #ccc;
   cursor: pointer;
 }

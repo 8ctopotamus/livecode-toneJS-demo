@@ -29,3 +29,7 @@ function go() {
   Tone.Transport.start('+0.2')
   seq.start()
 }
+
+function stop() {
+  Tone.Transport.stop()
+}
