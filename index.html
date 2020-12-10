@@ -8,8 +8,8 @@
   <title>Tone Examples</title>
 </head>
 <body>
-<div class="btn" onclick="go()">play</div>
-<div class="btn" onclick="stop()">stop</div>
+<div id="go" class="btn">play</div>
+<div id="stop" class="btn">stop</div>
 <div id="editor">
 // drums -------------------------
 p1.get('hihat').start()
@@ -41,8 +41,8 @@ if (chordIndex >= 0) {
 }
 </div>
 
-<script src="node_modules/ace-builds/src-min/ace.js"></script>
-<script src="node_modules/tone/build/Tone.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.4/ace.js" integrity="sha512-o1LdcrmJ5nGhRjhjyETcRm9MDUCaP6IfpUMiQUA7FudMMj6Gguv9yH64rdKf+t3wYoCyq5xv+kSCAT19Hv5EIg==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tone/13.4.9/Tone.min.js" integrity="sha512-8n6rtmlLNhmr1dJJErgO1UgYnTP/ltzrcGE9VHxbK5PnWxCODbBIafIiY/4HiXYUymiw3BM/mGGw1wkBvcvetg==" crossorigin="anonymous"></script>
 <script src="js/app.js"></script>
 </body>
 </html>
